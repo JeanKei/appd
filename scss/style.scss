@@ -776,6 +776,15 @@
     letter-spacing: 0.08em;
     color: #716894;
     cursor: pointer;
+    background-color: #fff;
+    border: none;
+  }
+
+  &__button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #716894;
+    // color: #fff;
+    // background-color: #716894;
   }
 
   &__textarea {
